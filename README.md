@@ -30,10 +30,10 @@ cd langchain-stock-sentiment
 
 # Mlflow experiment details:
 
-# Set the Mlflow tracking URI in the assignment1.py file
+# Set the Mlflow tracking URI in the pipeline.py file
 mlflow.set_tracking_uri("your mlflow tracking uri")
 
-# Set the experiment ID in the file
+# Set the experiment ID in the pipeline.py file
 experiment_id="your experiment id"
 
 # Recommended to use venv or conda
