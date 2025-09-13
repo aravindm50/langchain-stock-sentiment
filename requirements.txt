@@ -1,0 +1,9 @@
+ddgs
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain-openai
+langchain-google-genai
+pydantic
+mlflow
