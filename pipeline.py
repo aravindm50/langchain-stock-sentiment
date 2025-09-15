@@ -12,6 +12,12 @@ from langchain.schema.runnable import RunnableLambda, RunnableMap
 import json
 from ddgs import DDGS
 
+from dotenv import load_dotenv
+import os
+
+# Load .env file
+load_dotenv()
+
 
 def mlflow_span(name, fn, parent_run_id):
     """Decorator to wrap a chain/function call into an MLflow nested run."""
