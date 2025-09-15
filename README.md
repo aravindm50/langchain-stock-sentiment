@@ -47,11 +47,11 @@ pip install -r requirements.txt
     - This opens MLflow dashboard at http://127.0.0.1:5000
 
 2. **Google Gemini (Vertex AI)**
-    -   Set environment variables:
+    -   Set environment variables in .env file in the same folder:
 ``` bash
-export GOOGLE_CLOUD_PROJECT="your-gcp-project-id"
-export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account-key.json"
-export GOOGLE_API_KEY=""
+GOOGLE_CLOUD_PROJECT="your-gcp-project-id"
+GOOGLE_API_KEY=""
+GOOGLE_GENAI_USE_VERTEXAI=True
 ```
 
 # ▶️ Running the Pipeline
